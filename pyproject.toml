@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ibm-ai-engineering-professional"
+version = "0.1.0"
+description = ""
+authors = ["ngoc <ngochust56@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+matplotlib = "^3.9.2"
+scikit-learn = "^1.5.2"
+notebook = "^7.2.2"
+keras = "^3.6.0"
+tensorflow = "^2.18.0"
+tensorflow-intel = "^2.18.0"
+numpy = "^2.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
