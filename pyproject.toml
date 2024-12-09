@@ -16,6 +16,8 @@ keras = "^3.6.0"
 tensorflow = "^2.18.0"
 tensorflow-intel = "^2.18.0"
 numpy = "^2.0.0"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
 
 
 [tool.poetry.group.dev.dependencies]
