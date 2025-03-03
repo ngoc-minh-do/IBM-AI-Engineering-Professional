@@ -8,7 +8,7 @@ authors = [
 readme = "README.md"
 package-mode = false
 
-requires-python = ">=3.12"
+requires-python = "~=3.12"
 
 dependencies = [
     "pandas (>=2.2.3,<3.0.0)",
@@ -16,8 +16,17 @@ dependencies = [
     "scikit-learn (>=1.6.0,<2.0.0)",
     "tensorflow (>=2.18.0,<3.0.0)",
     "numpy (==2.0.2)",
-    "torch (>=2.5.1,<3.0.0)",
-    "torchvision (>=0.20.1,<0.21.0)"
+    "torch (==2.3)",
+    "torchvision (==0.18)",
+    "nltk (>=3.9.1,<4.0.0)",
+    "transformers (>=4.49.0,<5.0.0)",
+    "sentencepiece (>=0.2.0,<0.3.0)",
+    "torchtext (==0.18)",
+    "spacy (>=3.8.4,<4.0.0)",
+    "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz",
+    "torchdata (==0.9)",
+    "portalocker (>=3.1.1,<4.0.0)",
+    "de-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.8.0/de_core_news_sm-3.8.0.tar.gz"
 ]
 
 [build-system]
@@ -26,4 +35,3 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.group.dev.dependencies]
 notebook = "^7.3.2"
-
