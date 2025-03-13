@@ -8,7 +8,7 @@ authors = [
 readme = "README.md"
 package-mode = false
 
-requires-python = "~=3.12"
+requires-python = "~=3.12.0"
 
 dependencies = [
     "pandas (>=2.2.3,<3.0.0)",
@@ -26,7 +26,10 @@ dependencies = [
     "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz",
     "torchdata (==0.9)",
     "portalocker (>=3.1.1,<4.0.0)",
-    "de-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.8.0/de_core_news_sm-3.8.0.tar.gz"
+    "de-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.8.0/de_core_news_sm-3.8.0.tar.gz",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "pmdarima (>=2.0.4,<3.0.0)",
+    "plotly (>=6.0.0,<7.0.0)"
 ]
 
 [build-system]
