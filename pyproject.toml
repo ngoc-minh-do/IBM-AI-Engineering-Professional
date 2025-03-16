@@ -29,7 +29,12 @@ dependencies = [
     "de-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.8.0/de_core_news_sm-3.8.0.tar.gz",
     "seaborn (>=0.13.2,<0.14.0)",
     "pmdarima (>=2.0.4,<3.0.0)",
-    "plotly (>=6.0.0,<7.0.0)"
+    "plotly (>=6.0.0,<7.0.0)",
+    "levenshtein (>=0.27.1,<0.28.0)",
+    "dash-core-components (>=2.0.0,<3.0.0)",
+    "dash-table (>=5.0.0,<6.0.0)",
+    "dash (>=2.18.2,<3.0.0)",
+    "dash-html-components (>=2.0.0,<3.0.0)"
 ]
 
 [build-system]
