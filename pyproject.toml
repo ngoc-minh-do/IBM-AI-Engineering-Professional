@@ -34,7 +34,9 @@ dependencies = [
     "dash-core-components (>=2.0.0,<3.0.0)",
     "dash-table (>=5.0.0,<6.0.0)",
     "dash (>=2.18.2,<3.0.0)",
-    "dash-html-components (>=2.0.0,<3.0.0)"
+    "dash-html-components (>=2.0.0,<3.0.0)",
+    "pdfplumber (>=0.11.5,<0.12.0)",
+    "fpdf (>=1.7.2,<2.0.0)"
 ]
 
 [build-system]
