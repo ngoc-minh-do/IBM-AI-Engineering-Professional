@@ -36,7 +36,16 @@ dependencies = [
     "dash (>=2.18.2,<3.0.0)",
     "dash-html-components (>=2.0.0,<3.0.0)",
     "pdfplumber (>=0.11.5,<0.12.0)",
-    "fpdf (>=1.7.2,<2.0.0)"
+    "fpdf (>=1.7.2,<2.0.0)",
+    "tf-keras (>=2.19.0,<3.0.0)",
+    "datasets (>=3.4.1,<4.0.0)",
+    "accelerate (>=1.5.2,<2.0.0)",
+    "torchmetrics (>=1.7.0,<2.0.0)",
+    "trl (>=0.16.0,<0.17.0)",
+    "bitsandbytes (>=0.45.3,<0.46.0)",
+    "evaluate (>=0.4.3,<0.5.0)",
+    "peft (>=0.15.0,<0.16.0)",
+    "huggingface-hub (>=0.29.3,<0.30.0)"
 ]
 
 [build-system]
