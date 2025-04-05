@@ -45,7 +45,9 @@ dependencies = [
     "bitsandbytes (>=0.45.3,<0.46.0)",
     "evaluate (>=0.4.3,<0.5.0)",
     "peft (>=0.15.0,<0.16.0)",
-    "huggingface-hub (>=0.29.3,<0.30.0)"
+    "huggingface-hub (>=0.29.3,<0.30.0)",
+    "sacrebleu (>=2.5.1,<3.0.0)",
+    "rouge-score (>=0.1.2,<0.2.0)"
 ]
 
 [build-system]
