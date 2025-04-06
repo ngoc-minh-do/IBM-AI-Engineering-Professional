@@ -58,7 +58,13 @@ dependencies = [
     "langchainhub (>=0.1.21,<0.2.0)",
     "pypdf (>=5.4.0,<6.0.0)",
     "chromadb (>=1.0.0,<2.0.0)",
-    "sentence-transformers (>=4.0.2,<5.0.0)"
+    "sentence-transformers (>=4.0.2,<5.0.0)",
+    "beautifulsoup4 (>=4.13.3,<5.0.0)",
+    "docx2txt (>=0.9,<0.10)",
+    "markdown (>=3.7,<4.0)",
+    "unstructured (>=0.17.2,<0.18.0)",
+    "pymupdf (>=1.25.5,<2.0.0)",
+    "jq (>=1.8.0,<2.0.0)"
 ]
 
 [build-system]
