@@ -34,6 +34,8 @@ This repository is organized by course modules and covers a wide range of topics
 ├── 06. AI Capstone Project with Deep Learning/
 ├── 07. Generative AI and LLMs Architecture and Data Preparation/
 ├── 08. Gen AI Foundational Models for NLP & Language Understanding/
+├── 09. Generative AI Language Modeling with Transformers/
+├── 10. Generative AI Engineering and Fine-Tuning Transformers/
 ├── 11. Generative AI Advance Fine-Tuning for LLMs/
 ├── 12. Fundamentals of AI Agents Using RAG and LangChain/
 ├── 13. (Project) Generative AI Applications with RAG and LangChain/
@@ -62,12 +64,12 @@ This repository is organized by course modules and covers a wide range of topics
    - Use [uv](https://docs.astral.sh/uv/) for dependency management:
      ```sh
      uv sync
-     uv run jupyter lab
+     uv run jupyter notebook
      ```
-   - For detailed setup instructions, see this [guide](https://gist.github.com/ngoc-minh-do/9635c279be8ecd891bd4b86179647da0).
+   - For detailed setup instructions, see this [guide](https://gist.github.com/ngoc-minh-do/c3194a66bfd5ccb02796a1ae7d85bd6c).
 
 3. **Open notebooks:**
-   - Use [Visual Studio Code](https://code.visualstudio.com/) or [JupyterLab](https://jupyter.org/) to explore and run the notebooks.
+   - Use [Visual Studio Code](https://code.visualstudio.com/) or [Jupyter Notebook](https://jupyter.org/) to explore and run the notebooks.
 
 ---
 
@@ -75,7 +77,7 @@ This repository is organized by course modules and covers a wide range of topics
 
 - Python 3.12+
 - uv
-- Jupyter Notebook or JupyterLab
+- Jupyter Notebook
 - See `pyproject.toml` for all dependencies
 
 ---
