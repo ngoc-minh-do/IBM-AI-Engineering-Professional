@@ -2,12 +2,8 @@
 name = "ibm-ai-engineering-professional"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "ngoc",email = "ngochust56@gmail.com"}
-]
+authors = [{ name = "ngoc", email = "ngochust56@gmail.com" }]
 readme = "README.md"
-package-mode = false
-
 requires-python = "~=3.12.0"
 
 dependencies = [
@@ -64,12 +60,12 @@ dependencies = [
     "markdown (>=3.7,<4.0)",
     "unstructured (>=0.17.2,<0.18.0)",
     "pymupdf (>=1.25.5,<2.0.0)",
-    "jq (>=1.8.0,<2.0.0)"
+    "jq (>=1.8.0,<2.0.0)",
 ]
 
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
 
-[tool.poetry.group.dev.dependencies]
-notebook = "^7.3.2"
+[dependency-groups]
+dev = ["notebook>=7.3.2,<8"]
+
+[tool.uv]
+package = false

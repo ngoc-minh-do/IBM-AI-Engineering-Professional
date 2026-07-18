@@ -38,7 +38,7 @@ This repository is organized by course modules and covers a wide range of topics
 ├── 12. Fundamentals of AI Agents Using RAG and LangChain/
 ├── 13. (Project) Generative AI Applications with RAG and LangChain/
 ├── pyproject.toml
-├── poetry.lock
+├── uv.lock
 ├── .python-version
 ├── .gitignore
 └── README.md
@@ -59,10 +59,10 @@ This repository is organized by course modules and covers a wide range of topics
 
 2. **Set up the Python environment:**
    - Python version is specified in `.python-version`.
-   - Use [Poetry](https://python-poetry.org/) for dependency management:
+   - Use [uv](https://docs.astral.sh/uv/) for dependency management:
      ```sh
-     poetry install
-     poetry shell
+     uv sync
+     uv run jupyter lab
      ```
    - For detailed setup instructions, see this [guide](https://gist.github.com/ngoc-minh-do/9635c279be8ecd891bd4b86179647da0).
 
@@ -74,7 +74,7 @@ This repository is organized by course modules and covers a wide range of topics
 ## 🛠️ Requirements
 
 - Python 3.12+
-- Poetry
+- uv
 - Jupyter Notebook or JupyterLab
 - See `pyproject.toml` for all dependencies
 
